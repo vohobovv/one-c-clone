@@ -1,0 +1,14 @@
+.title-404{
+	background: -webkit-linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.product-bg{
+	background: linear-gradient(252.7deg, #EBF5EB 17.34%, #EFFBF0 90.57%);
+}
+
+.card-bg{
+	background: linear-gradient(100.98deg, #43A548 -4.14%, #52E259 108.69%);
+	transition: all 4s ease;
+}

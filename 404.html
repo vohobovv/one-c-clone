@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="./style.css">
+	<script src="https://cdn.tailwindcss.com"></script>
+	<title>404</title>
+</head>
+
+<body class="flex flex-col mini-h-screen">
+	<header style="box-shadow: 0px 4px 24.2px 0px #0000000f" class="pt-5 lg:pt-6 pb-5 lg:pb-6" id="header">
+		<div class="max-w-[1312px] ml-auto mr-auto flex items-center pl-5 pr-5">
+			<a href="./index.html">
+				<img class="max-w-[133px] lg:max-w-[172px]" src="./images/header/logo.png" alt="header logo" />
+			</a>
+
+			<ul class="hidden lg:flex gap-12 ml-auto">
+				<li>
+					<a class="font-normal text-sm leading-5 text-[#2c2b35]" href="./how-does-this-work.html">Как это работает</a>
+				</li>
+				<li>
+					<a class="font-normal text-sm leading-5 text-[#2c2b35]" href="./404.html">Инструкции</a>
+				</li>
+				<li>
+					<a class="font-normal text-sm leading-5 text-[#2c2b35]" href="./product.html">Продукты</a>
+				</li>
+				<li>
+					<a class="font-normal text-sm leading-5 text-[#2c2b35]" href="./knowledge-base.html">База знаний</a>
+				</li>
+				<li>
+					<a class="font-normal text-sm leading-5 text-[#2c2b35]" href="./404.html">О нас</a>
+				</li>
+			</ul>
+			<button style="
+            background: linear-gradient(
+              100.98deg,
+              #43a548 -4.14%,
+              #52e259 108.69%
+            );
+          " class="hidden lg:flex font-semibold text-sm leading-5 text-[#f7f8f8] rounded-full px-5 py-2.5 ml-12">
+				Вход
+			</button>
+
+			<button class="flex lg:hidden ml-auto">
+				<img src="./images/hero/hamburger-menu.svg" alt="hamburger menu" />
+			</button>
+		</div>
+	</header>
+
+	<main>
+		<section class="py-[100px] md:py-[140px]">
+			<div class="max-w-[1352px] mx-auto px-5 text-center">
+				<h1 class="title-404 font-black text-[140px] md:text-[200px] leading-[140px] md:leading-[200px] mb-5">404</h1>
+				<p class="title-404 font-black text-[26px] md:text-[36px] leading-[26px] md:leading-[40px] mb-5">Страница не найдена</p>
+				<p class="max-w-[378px] mx-auto font-normal text-base leading-[18px] text-[#2C2B35] mb-5">Страница, на которую вы пытаетесь попасть, не существует или была удалена. Перейдите на главную страницу.</p>
+				<button class="font-semibold rounded-full text-sm md:text-base leading-[16px] md:leading-[22px] text-white py-3 px-8" style="
+				background: linear-gradient(
+					100.98deg,
+					#43a548 -4.14%,
+					#52e259 108.69%
+				);
+			">
+					Верунться на главную
+				</button>
+			</div>
+		</section>
+	</main>
+
+
+	<footer class="bg-[#2C2B35] pt-10 pb-5 mt-auto">
+		<div class="max-w-[1352px] grid lg:grid-cols-2 gap-5 mx-auto px-5 mb-10">
+			<div class="grid grid-cols-2 gap-2.5 md:grid-cols-1">
+				<div class="flex flex-col gap-8 md:gap-10">
+					<a href="#" class="flex">
+						<img class="w-[133px] md:w-auto" src="./images/footer/footer-logo.svg" alt="Logo" />
+					</a>
+					<div class="hidden md:flex flex-col md:flex-row gap-10 items-start">
+						<div>
+							<h3 class="font-normal text-base text-[#919999] leading-3 mb-4">
+								Линия консультации
+							</h3>
+							<a class="font-semibold text-white text-2xl leading-4" href="tel:+7(495)-111-00-10">+7(495)-111-00-10</a>
+						</div>
+						<div>
+							<h3 class="font-normal text-base text-[#919999] leading-3 mb-4">
+								Наш e-mail
+							</h3>
+							<a class="font-semibold text-white text-2xl leading-4 hover:text-[#43A548] transition-all"
+								href="mailto:info@rozn.info">info@rozn.info</a>
+						</div>
+						<button class="font-semibold rounded-full text-base leading-[22px] text-white py-3 px-[30px]" style="
+                  background: linear-gradient(
+                    100.98deg,
+                    #43a548 -4.14%,
+                    #52e259 108.69%
+                  );
+                ">
+							Заказать звонок
+						</button>
+					</div>
+					<div class="">
+						<p class="font-light text-xs md:text-base leading-4 md:leading-[22px] text-white mb-5">
+							Для активации перейдите на
+							<a class="underline leading-[22px] hover:text-[#43A548] transition-all" href="#">portal.1c.ru</a>
+							или обратитесь к Вашему партнеру 1С.
+						</p>
+						<a class="text-[#43A548] hover:text-white transition-all font-light text-xs md:text-base leading-4 md:leading-5"
+							href="#">Инструкция по установке сервиса</a>
+					</div>
+				</div>
+				<div class="flex flex-col md:hidden md:flex-row gap-8 items-start">
+					<div>
+						<h3 class="font-normal text-xs text-[#919999] leading-2 mb-4">
+							Линия консультации
+						</h3>
+						<a class="font-semibold text-white text-lg leading-3" href="tel:+7(495)-111-00-10">+7(495)-111-00-10</a>
+					</div>
+					<div>
+						<h3 class="font-normal text-xs text-[#919999] leading-2 mb-4">
+							Наш e-mail
+						</h3>
+						<a class="font-semibold text-white text-lg leading-3 hover:text-[#43A548] transition-all"
+							href="mailto:info@rozn.info">info@rozn.info</a>
+					</div>
+					<button class="font-semibold w-full rounded-full text-xs leading-4 text-white py-3 px-1" style="
+                background: linear-gradient(
+                  100.98deg,
+                  #43a548 -4.14%,
+                  #52e259 108.69%
+                );
+              ">
+						Заказать звонок
+					</button>
+				</div>
+			</div>
+			<div class="flex flex-col md:flex-row justify-between w-full gap-8">
+				<div>
+					<h3 class="font-semibold text-base md:text-xl leading-[22px] md:leading-7 text-white mb-5 md:mb-8">
+						Информация
+					</h3>
+					<div class="grid gap-2.5 md:gap-5">
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white" href="#">Как это
+							работает</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white" href="#">Инструкции</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white" href="#">Блог</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white" href="#">О нас</a>
+					</div>
+				</div>
+				<div class="max-w-[320px] md:ml-auto">
+					<h3 class="font-semibold text-base md:text-xl leading-[22px] md:leading-7 text-white mb-5 md:mb-8">
+						Продукты
+					</h3>
+					<div class="grid gap-2.5 md:gap-5">
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white hover:text-[#43A548] transition-all"
+							href="#">1С-Ритейл Чекер Демо</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white hover:text-[#43A548] transition-all"
+							href="#">1С-Товары.Тестовый для магазина на 1 месяц</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white hover:text-[#43A548] transition-all"
+							href="#">1С-Ритейл Чекер</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white hover:text-[#43A548] transition-all"
+							href="#">1С-Товары 300</a>
+						<a class="text-sm md:text-base leading-5 md:leading-[22px] font-normal text-white hover:text-[#43A548] transition-all"
+							href="#">1С-Товары 30000</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="max-w-[1352px] mx-auto px-5">
+			<div class="flex justify-between pt-5 border-t border-[#494949]">
+				<p class="font-normal text-sm leading-4 text-[#919999]">
+					1С-Товары © 2023
+				</p>
+				<p class="font-normal text-sm leading-4 text-[#919999]">
+					Сайт создан - <a class="text-[#43A548]" href="#">wtstudio.ru</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="./js/app.js"></script>
+</body>
+
+</html>
